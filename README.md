@@ -147,8 +147,8 @@ More information about building the samples can be found in the
 ## Plugin Installation
 
 To download the plugin, clone this Git repository into your file system (or download it as
-a ZIP file and unpack it). Then, look for the **unitypackage** file in
-the **current-build** directory:
+a ZIP file and unpack it). Then, look for the `*.unitypackage` file in
+the `current-build` directory:
 
     current-build/GooglePlayGamesPluginForUnity-X.YY.ZZ.unitypackage
 
@@ -190,7 +190,7 @@ make sure that you are signing it with the
 correct certificate, that is, the one that corresponds to the SHA1 certificate
 fingerprint you entered in the Developer Console during the setup.
 
-Next, click the **Window |Google Play Games|Setup - Android setup** menu item.
+Next, click the **Window > Google Play Games > Setup > Android setup** menu item.
 This will display the Android setup screen.
 
 Enter the Constants class name.  This is the name of the fully qualified class
